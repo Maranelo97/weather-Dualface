@@ -43,7 +43,6 @@ h1{
 
 .app .search {
   text-align: center;
-  padding: 1rem;
 }
 
 .app input{
@@ -57,6 +56,11 @@ h1{
 
 ::placeholder {
   color: #f8f8f8;
+  text-align: center;
+}
+
+.app .calendar {
+  text-align: center;
 }
 
 .container{

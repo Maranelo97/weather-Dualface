@@ -4,6 +4,9 @@ import axios from "axios";
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
+  const today = new Date();
+  const date = today.getDay() - 1 + ' / ' + parseInt(today.getMonth() + 1) + ' / ' + today.getFullYear();
+
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=9fe3148cbefa91228b0ee214359ff8e7`;
 
@@ -27,8 +30,12 @@ function App() {
           placeholder="¿Donde Estas?"
           type="text"
         />
+        <div className="calendar">
+          <h2>
+              {date}
+          </h2>
+        </div>
       </div>
-
       <div className="container">
         <div className="top">
           <div className="location">
