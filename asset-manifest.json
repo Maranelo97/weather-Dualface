@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-Dualface/static/css/main.a72c9d7c.css",
+    "main.js": "/weather-Dualface/static/js/main.7d95274c.js",
+    "static/media/bg2.jpg": "/weather-Dualface/static/media/bg2.95972f0f8232ce3c8be7.jpg",
+    "index.html": "/weather-Dualface/index.html",
+    "main.a72c9d7c.css.map": "/weather-Dualface/static/css/main.a72c9d7c.css.map",
+    "main.7d95274c.js.map": "/weather-Dualface/static/js/main.7d95274c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a72c9d7c.css",
+    "static/js/main.7d95274c.js"
+  ]
+}
